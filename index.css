@@ -19,22 +19,21 @@ body {
 
 /* header */
 header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    height: 170px;
     background-image: url('./Images/header_img.png');
-    background-size: cover;
-    background-repeat: none;
-    background-position: center;
+    background-position: bottom;
     color: #FFF;
-    height: 165px;
 }
 
-.header-container{
+.header-title, .header-subtitle{
     padding-left: 45px;
 }
 
-h1 {
+.header-title {
     font-weight: normal;
-    margin-bottom: 15px;
+    padding-top: 45px;
+}
+
+.header-subtitle {
+    padding-bottom: 70px;
 }

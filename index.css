@@ -7,21 +7,34 @@ body {
     margin: 0;
     font-family: "Smythe", 'Times New Roman', Times, serif;
     width: 600px;
+    margin: 0 auto;
 } 
 
 header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-image: url('./Images/header_img.png');
     background-size: cover;
     background-repeat: none;
     background-position: center;
     color: #FFF;
+    height: 165px;
+}
 
+.header-container{
+    padding-left: 45px;
 }
 
 /* Utitlity classes */
 
 .margin-zero {
     margin: 0;
+}
+
+h1 {
+    font-weight: normal;
+    margin-bottom: 15px;
 }
 
 /* h1 {

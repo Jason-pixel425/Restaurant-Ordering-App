@@ -40,17 +40,23 @@ header {
 
 /* Item container */
 
-.menu-item-container{
-    display: flex;
-    /* width: 100%; */
-    justify-content: space-between;
+.menu-item-outer-container {
+    margin-top: 35px;
     border-bottom: 1px solid #D2D2D2;
-    margin: 0 45px;
+}
+
+.menu-item-container{
+    border: 1px solid red;
+    display: flex;
+    width: 500px;
+    height: 140px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 45px 45px 0 45px;
 }
 
 .menu-item-container-left {
     display: inline-flex;
-    /* width: 75%; */
 }
 
 
@@ -62,4 +68,8 @@ header {
 
 .food-emoji-p {
     font-size: 80px
+}
+
+.add-btn{
+    
 }

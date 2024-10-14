@@ -1,3 +1,39 @@
+/* Fonts */
+@font-face{
+    font-family: "Smythe";
+    src: url('./Fonts/Smythe-Regular.ttf');
+}
+
 body {
     margin: 0;
+    font-family: "Smythe", 'Times New Roman', Times, serif;
+    width: 600px;
+    margin: 0 auto;
 } 
+
+/* Utitlity classes */
+.margin-zero {
+    margin: 0;
+}
+
+
+/* header */
+header {
+    height: 170px;
+    background-image: url('./Images/header_img.png');
+    background-position: bottom;
+    color: #FFF;
+}
+
+.header-title, .header-subtitle{
+    padding-left: 45px;
+}
+
+.header-title {
+    font-weight: normal;
+    padding-top: 45px;
+}
+
+.header-subtitle {
+    padding-bottom: 70px;
+}

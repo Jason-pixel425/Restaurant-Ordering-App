@@ -37,3 +37,29 @@ header {
 .header-subtitle {
     padding-bottom: 70px;
 }
+
+/* Item container */
+
+.menu-item-container{
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-between;
+    border-bottom: 1px solid #D2D2D2;
+    margin: 0 45px;
+}
+
+.menu-item-container-left {
+    display: inline-flex;
+    /* width: 75%; */
+}
+
+
+.menu-item-description-ul{
+    padding-left: 30px;
+    margin: auto 0;
+    list-style: none;
+}
+
+.food-emoji-p {
+    font-size: 80px
+}

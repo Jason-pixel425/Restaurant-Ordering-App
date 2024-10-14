@@ -6,4 +6,28 @@
 body {
     margin: 0;
     font-family: "Smythe", 'Times New Roman', Times, serif;
+    width: 600px;
 } 
+
+header {
+    background-image: url('./Images/header_img.png');
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    color: #FFF;
+
+}
+
+/* Utitlity classes */
+
+.margin-zero {
+    margin: 0;
+}
+
+/* h1 {
+    margin: 0;
+}
+
+.header-subtitle{
+    margin: 0;
+} */

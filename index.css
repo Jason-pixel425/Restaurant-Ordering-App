@@ -1,3 +1,4 @@
+/* Fonts */
 @font-face{
     font-family: "Smythe";
     src: url('./Fonts/Smythe-Regular.ttf');
@@ -10,6 +11,13 @@ body {
     margin: 0 auto;
 } 
 
+/* Utitlity classes */
+.margin-zero {
+    margin: 0;
+}
+
+
+/* header */
 header {
     display: flex;
     flex-direction: column;
@@ -26,21 +34,7 @@ header {
     padding-left: 45px;
 }
 
-/* Utitlity classes */
-
-.margin-zero {
-    margin: 0;
-}
-
 h1 {
     font-weight: normal;
     margin-bottom: 15px;
 }
-
-/* h1 {
-    margin: 0;
-}
-
-.header-subtitle{
-    margin: 0;
-} */

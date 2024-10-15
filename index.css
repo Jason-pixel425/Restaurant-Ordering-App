@@ -57,6 +57,7 @@ header {
 
 .menu-item-container-left {
     display: inline-flex;
+    
 }
 
 
@@ -70,6 +71,11 @@ header {
     font-size: 80px
 }
 
+.add-btn-container {
+    display: flex;
+    align-self: flex-start;  
+}
+
 .add-btn{
-    
+ 
 }

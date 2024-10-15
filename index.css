@@ -37,3 +37,45 @@ header {
 .header-subtitle {
     padding-bottom: 70px;
 }
+
+/* Item container */
+
+.menu-item-outer-container {
+    margin-top: 35px;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+.menu-item-container{
+    border: 1px solid red;
+    display: flex;
+    width: 500px;
+    height: 140px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 45px 45px 0 45px;
+}
+
+.menu-item-container-left {
+    display: inline-flex;
+    
+}
+
+
+.menu-item-description-ul{
+    padding-left: 30px;
+    margin: auto 0;
+    list-style: none;
+}
+
+.food-emoji-p {
+    font-size: 80px
+}
+
+.add-btn-container {
+    display: flex;
+    align-self: flex-start;  
+}
+
+.add-btn{
+ 
+}

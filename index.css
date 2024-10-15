@@ -4,6 +4,10 @@
     src: url('./Fonts/Smythe-Regular.ttf');
 }
 
+/* *{
+    border: 1px solid red;
+} */
+
 body {
     margin: 0;
     font-family: "Smythe", 'Times New Roman', Times, serif;
@@ -11,55 +15,58 @@ body {
     margin: 0 auto;
 } 
 
+
 /* Utitlity classes */
 .margin-zero {
     margin: 0;
 }
 
+.flex-margins {
+    margin: 45px 45px 0 45px;
+    display: flex;
+}
+
+.width-container {
+    width: 500px;
+}
+
 
 /* header */
 header {
-    height: 170px;
     background-image: url('./Images/header_img.png');
     background-position: bottom;
+    background-size: cover;
     color: #FFF;
+    padding: 45px 0 70px 45px;
 }
 
 .header-title, .header-subtitle{
-    padding-left: 45px;
+    padding: 0;
 }
 
 .header-title {
     font-weight: normal;
-    padding-top: 45px;
-}
-
-.header-subtitle {
-    padding-bottom: 70px;
 }
 
 /* Item container */
 
 .menu-item-outer-container {
     margin-top: 35px;
-    border-bottom: 1px solid #D2D2D2;
+    /* border-bottom: 1px solid #D2D2D2; */
 }
 
 .menu-item-container{
-    border: 1px solid red;
-    display: flex;
-    width: 500px;
+    /* border: 1px solid red; */
     height: 140px;
     justify-content: space-between;
     align-items: center;
-    margin: 45px 45px 0 45px;
+    border-bottom: 1px solid #D2D2D2; 
 }
 
 .menu-item-container-left {
     display: inline-flex;
     
 }
-
 
 .menu-item-description-ul{
     padding-left: 30px;
@@ -78,4 +85,10 @@ header {
 
 .add-btn{
  
+}
+
+/* Order Summary */
+.order{
+    flex-direction: column;
+    align-items: center;
 }

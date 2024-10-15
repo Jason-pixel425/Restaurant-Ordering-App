@@ -50,7 +50,7 @@ header {
 .menu-item-container {
     height: 140px;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     border-bottom: 1px solid #D2D2D2;
 }
 
@@ -59,12 +59,12 @@ header {
 }
 
 .menu-item-description-ul {
-    padding-left: 30px;
-    margin: auto 0;
+    padding: 0 0 0 30px;
     list-style: none;
 }
 
 .food-emoji-p {
+    margin: 0;
     font-size: 80px;
 }
 
@@ -74,7 +74,12 @@ header {
 }
 
 .add-btn {
-    /* Add button styles here if needed */
+    background-color: #FFF;
+    border: 1px solid #DEDEDE;
+    border-radius: 50%;
+    font-size: 1rem;
+    padding: 5px 10px;
+    
 }
 
 /* Order Summary */
@@ -90,6 +95,10 @@ header {
     width: 500px;
     padding-left: 0;
     padding-bottom: 30px;
+    margin: 0;
+}
+
+.order-list-container {
     border-bottom: 2px solid black;
 }
 
@@ -102,6 +111,29 @@ header {
     display: flex;
     width: 25%;
     justify-content: space-between;
+}
+
+.order-total {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-top: 15px;
+}
+
+.order-total p {
+    margin: 0;
+}
+
+.complete-order-btn {
+    font-family: "Verdana";
+    font-weight: bold;
+    width: 100%;
+    background-color: #16DB99;
+    padding: 18px 0;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    margin-top: 50px;
 }
 
 .price {

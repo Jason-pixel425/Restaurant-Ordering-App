@@ -11,7 +11,7 @@
         </header>
 
         <section class="menu-item-outer-container width-container">
-            <div class="menu-item-container flex-margins">
+            <div class="menu-item-container flex-margins width-container">
                 <div class="menu-item-container-left">
                     <p class="food-emoji-p">🍕</p>
                     <ul class="menu-item-description-ul">
@@ -31,9 +31,11 @@
 
             <div class="order-list-container width-container">
                 <ul class="order-list">
-                    <li>Pizza</li>
-                    <li><button>remove</button></li>
-                    <li>$14</li>
+                    <div class="order-list-left">
+                    <li class="item">Pizza</li>
+                    <li><button id="remove-btn" class="remove-btn">remove</button></li>
+                </div>
+                    <li class="price">$14</li>
                 </ul>
             </div>
             <div class="order-total-container width-container">

@@ -1,22 +1,17 @@
 /* Fonts */
-@font-face{
+@font-face {
     font-family: "Smythe";
     src: url('./Fonts/Smythe-Regular.ttf');
 }
-
-/* *{
-    border: 1px solid red;
-} */
 
 body {
     margin: 0;
     font-family: "Smythe", 'Times New Roman', Times, serif;
     width: 600px;
     margin: 0 auto;
-} 
+}
 
-
-/* Utitlity classes */
+/* Utility classes */
 .margin-zero {
     margin: 0;
 }
@@ -30,8 +25,7 @@ body {
     width: 500px;
 }
 
-
-/* header */
+/* Header */
 header {
     background-image: url('./Images/header_img.png');
     background-position: bottom;
@@ -40,7 +34,7 @@ header {
     padding: 45px 0 70px 45px;
 }
 
-.header-title, .header-subtitle{
+.header-title, .header-subtitle {
     padding: 0;
 }
 
@@ -49,46 +43,71 @@ header {
 }
 
 /* Item container */
-
 .menu-item-outer-container {
     margin-top: 35px;
-    /* border-bottom: 1px solid #D2D2D2; */
 }
 
-.menu-item-container{
-    /* border: 1px solid red; */
+.menu-item-container {
     height: 140px;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #D2D2D2; 
+    border-bottom: 1px solid #D2D2D2;
 }
 
 .menu-item-container-left {
     display: inline-flex;
-    
 }
 
-.menu-item-description-ul{
+.menu-item-description-ul {
     padding-left: 30px;
     margin: auto 0;
     list-style: none;
 }
 
 .food-emoji-p {
-    font-size: 80px
+    font-size: 80px;
 }
 
 .add-btn-container {
     display: flex;
-    align-self: flex-start;  
+    align-self: flex-start;
 }
 
-.add-btn{
- 
+.add-btn {
+    /* Add button styles here if needed */
 }
 
 /* Order Summary */
-.order{
+.order {
     flex-direction: column;
     align-items: center;
+}
+
+.order-list {
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 500px;
+    padding-left: 0;
+    padding-bottom: 30px;
+    border-bottom: 2px solid black;
+}
+
+.order-list li {
+    display: inline;
+    width: fit-content;
+}
+
+.order-list-left {
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+}
+
+.price {
+    /* Add price styles here if needed */
+}
+
+.remove-btn {
+    /* Add remove button styles here if needed */
 }

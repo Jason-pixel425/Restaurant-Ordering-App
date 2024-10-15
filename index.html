@@ -4,12 +4,14 @@
        <meta name="viewport" content="width=device-width, initial-scale=1" />
     </head>
     <body>
+
         <header>
             <h1 class="margin-zero header-title">Jimmy's Diner</h1>
             <p class="header-subtitle margin-zero">The best burgers and pizzas in town.</p>
         </header>
-        <section class="menu-item-outer-container">
-            <div class="menu-item-container">
+
+        <section class="menu-item-outer-container width-container">
+            <div class="menu-item-container flex-margins width-container">
                 <div class="menu-item-container-left">
                     <p class="food-emoji-p">🍕</p>
                     <ul class="menu-item-description-ul">
@@ -23,6 +25,28 @@
                 </div>
             </div>
         </section>
+
+        <section class="order flex-margins width-container">
+            <p>Your order</p>
+
+            <div class="order-list-container width-container">
+                <ul class="order-list">
+                    <div class="order-list-left">
+                    <li class="item">Pizza</li>
+                    <li><button id="remove-btn" class="remove-btn">remove</button></li>
+                </div>
+                    <li class="price">$14</li>
+                </ul>
+            </div>
+            <div class="order-total-container width-container">
+                <div class="order-total">
+                    <p>Total price:</p>
+                    <p>$14</p>
+                </div>
+            </div>
+            <button id="complete-order-btn" class="complete-order-btn">Complete order</button>
+        </section>
+
 	<script src="index.js"></script>
     </body>
 </html>
